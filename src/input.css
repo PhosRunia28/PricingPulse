@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-container {
+  @apply px-6 py-4 lg:px-24 lg:pt-12 lg:pb-6;
+}
+
+#desktop .drop:hover {
+  box-shadow: -6px 6px 0px #00ad6a;
+}
+
+#footer .drop:hover {
+  box-shadow: -4px 4px 0px #555;
+}
+
+#mobile .drop:hover {
+  box-shadow: -6px 6px 0px #555;
+}
